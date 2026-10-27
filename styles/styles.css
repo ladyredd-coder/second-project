@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #16233f;
+    margin: 0;
+    padding: 24px;
+  }
+  
+  header {
+    padding-bottom: 16px;
+    border-bottom: 4px solid #0e9c93;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+  }
+  
+  nav a {
+    color: #0e9c93;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 800px;
+    margin-top: 24px;
+  }
+  
+  .photo {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 16px;
+  }
+  
+  label, legend {
+    display: block;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 4px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #5b6472;
+    border-radius: 6px;
+  }
+  
+  fieldset {
+    border: 2px solid #5b6472;
+    border-radius: 6px;
+    padding: 12px;
+    margin-top: 16px;
+  }
+  
+  .btn {
+    margin-top: 16px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #16233f;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
